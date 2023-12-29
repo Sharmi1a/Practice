@@ -11,7 +11,12 @@ def markscard(a):
         
 
         
-mark = [10,20,30,40,50]
+mark = []
+for i in range(0,5):
+    c= int(input("Enter the marks of subjects: "))
+    mark.append(c)
+    
+#mark = [10,20,30,40,50]
 
 total = 0
 full_m = 500
